@@ -1,0 +1,20 @@
+/* Colors
+*/
+
+:root {
+    --primary: rgba(180, 208, 231, 1);
+    --secondary: rgba(0, 97, 255, 1);
+    --square_green: rgba(162, 211, 155, 1);
+    --square_brown: rgba(97, 8, 43, 1);
+    --square_lightblue: rgba(0, 147, 206, 1);
+    --square_red: rgba(255, 28, 28, 1);
+    --square_darkred: rgba(213, 0, 31, 1);
+    --square_blue: rgba(13, 36, 129, 1);
+    --square_yellow: rgba(255, 216, 48, 1);
+    --square_gray: rgba(245, 245, 245, 1);
+}
+
+
+
+
+
