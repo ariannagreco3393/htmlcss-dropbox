@@ -120,14 +120,14 @@ nav a {
     text-decoration: none;
     color: black;
     font-weight: 300;
-    margin-right: 30px;
     height: 25px;
     vertical-align: middle;
+    padding: 0 20px;
 
 }
 
 .navbar-container {
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 0;
     height: 70px;
 }
 
@@ -142,6 +142,7 @@ nav a {
 .main_menu_left{
     float: left;    
 }
+
 
 .main_menu_button {
     background-color: var(--secondary);
