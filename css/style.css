@@ -94,6 +94,26 @@ row::after{
     background-color: springgreen;
 }
 
+.square-30 {
+    width: 30%;
+    height: 500px;
+    float: left;
+    background-color: teal;
+}
+
+.square-40 {
+    width: 40%;
+    height: 500px;
+    float: left;
+    background-color: rgba(255, 216, 48, 1);
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
 
 /******
  Header
@@ -160,6 +180,59 @@ row::after{
 .proposta, .trasferisci {
     margin: 8% 5% 0;
 }
+
+/* team
+*/
+.text_team {
+    height: 400px;
+    background-color: brown;
+}
+
+/* clienti
+*/
+
+.clienti{
+    height: 500px;
+}
+
+.green{
+    background-color: var(--square_green);
+}
+
+.brown{
+    background-color: var(--square_brown);
+}
+
+.lightblue{
+    background-color: var(--square_lightblue);
+}
+
+.red{
+    background-color: var(--square_red);
+}
+
+.citazione{
+    background-color: var(--square_gray);
+}
+
+.darkred {
+    background-color: var(--square_darkred);
+}
+
+.primary{
+    background-color: var(--primary);
+}
+
+.blue{
+    background-color: var(--square_blue);
+}
+
+.yellow{
+    background-color: var(--square_yellow);
+}
+
+
+
 
 
 
