@@ -29,8 +29,13 @@ body {
     font-family: var(--font-opensans);
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* Utility
 */
+
 
 .row {
     width: 100%;
@@ -41,6 +46,14 @@ row::after{
     display: table;
     clear: both;
 }
+
+.blu_button {
+    background-color: var(--secondary);
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+}
+
 
 .col-50{
     width: 50%;
@@ -144,11 +157,6 @@ nav a {
 }
 
 
-.main_menu_button {
-    background-color: var(--secondary);
-    color: white;
-    padding: 5px 18px;
-}
 
 
 /******
@@ -157,12 +165,60 @@ nav a {
 
 .jumbo {
     background-color: var(--primary);
-    height: 800px;
+    height: 850px;
+
+}
+
+h1 {
+    font-family: var(--font-opensans);
+    font-weight: 700;
+    font-size: 90px;
+    padding: 80px 180px;
 }
 
 
-/* Main
-*/
+.hero_cta{
+    width: 30%;
+    height: 1000px;
+    float: left;
+    padding: 0px 0px 0 180px;
+}
+
+.hero_img{
+    width: 70%;
+    height: 1000px;
+    padding: 0px 180px;
+    float: left;
+}
+
+.jumbo p {
+    margin-bottom: 40px;
+
+}
+
+.jumbo img {
+    width: 1000px;
+}
+
+#annulla {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 20px 0 40px;
+}
+
+i {
+   
+}
+
+
+
+
+
+
+/*****
+ Main
+*****/
 
 /* Price
 */
