@@ -246,14 +246,18 @@ row::after{
 */
 
 .faq_text{
-    height: 600px ; 
+    height: 1000px ; 
     background-color: wheat;
 }
 
 
-
 /* Footer
 */
+
+.site_footer{
+    background-color: black;
+    height: 600px;
+}
 
 
 
