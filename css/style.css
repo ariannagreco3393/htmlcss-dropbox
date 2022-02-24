@@ -29,11 +29,6 @@ body {
     font-family: var(--font-opensans);
 }
 
-a {
-    display: inline-block;
-    text-decoration: none;
-}
-
 /* Utility
 */
 
@@ -49,15 +44,13 @@ row::after{
 
 .col-50{
     width: 50%;
-    height: 100px;
-    background-color: aquamarine;
     float: left;
 }
 
 .text-right{
-    background-color: brown;
     text-align: right;
 }
+
 
 .container {
     width: 70%;
@@ -117,6 +110,43 @@ row::after{
     height: 300px;
     float: left;
     background-color: brown;
+}
+
+
+/* Navbar
+*/
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-right: 30px;
+    height: 25px;
+    vertical-align: middle;
+
+}
+
+.navbar-container {
+    padding: 20px 20px 0 20px;
+    height: 70px;
+}
+
+.logo img{
+    float: left;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 30px;
+
+}
+
+.main_menu_left{
+    float: left;    
+}
+
+.main_menu_button {
+    background-color: var(--secondary);
+    color: white;
+    padding: 5px 18px;
 }
 
 
