@@ -232,7 +232,23 @@ row::after{
 }
 
 
+/* cta
+*/
 
+.col-50-cta{
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: darkgoldenrod;
+}
+
+/* cta
+*/
+
+.faq_text{
+    height: 600px ; 
+    background-color: wheat;
+}
 
 
 
