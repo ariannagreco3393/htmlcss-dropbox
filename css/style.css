@@ -13,8 +13,74 @@
     --square_yellow: rgba(255, 216, 48, 1);
     --square_gray: rgba(245, 245, 245, 1);
 
-    --font-family: 'Open Sans', sans-serif;
+    --font-opensans: 'Open Sans', sans-serif;
 }
+
+/* Common
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: var(--font-opensans);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Utility
+*/
+
+.row {
+    width: 100%;
+}
+
+row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-50{
+    width: 50%;
+    height: 100px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.text-right{
+    background-color: brown;
+    text-align: right;
+}
+
+/******
+ Header
+*******/
+
+header {
+    background-color: var(--primary);
+    height: 800px;
+}
+
+
+
+
+
+/* Main
+*/
+
+/* Footer
+*/
+
+
+
+
 
 
 
