@@ -460,10 +460,35 @@ ul i {
 /* cta
 */
 
-.faq_text{
-    height: 1000px ; 
-    background-color: wheat;
+.faq_section{
+    height: 1200px;
 }
+  
+
+.faq_text hr{
+    width: 100%;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.faq_text h6 {
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.faq {
+    position: relative;
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+}
+
 
 
 /* Footer
