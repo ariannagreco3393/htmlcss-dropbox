@@ -89,7 +89,6 @@ row::after{
 
 .col-30{
     width: 30%;
-    height: 1200px;
     float: left;
 }
 
@@ -254,6 +253,8 @@ h1 {
     border: 1px solid lightgray;
     border-top: none;
     padding: 30px;
+    position: relative;
+
 }
 
 .card_month {
@@ -267,11 +268,20 @@ h1 {
     margin-top: 35px;
 }
 
+
+
 .card_button {
     display: inline-block;
     margin-top: 40px;
     padding-right: 40px;
     padding-left: 40px;
+}
+
+
+.card_button_large > a{
+    position: absolute;
+    top: 0;
+    right: 30px;
 }
 
 .my-1 {
@@ -304,8 +314,7 @@ ul i {
 
 
 .enterprise{
-    background-color: chartreuse;
-    height: 300px;
+    margin-top: 5%;
 }
 
 /* Partner
