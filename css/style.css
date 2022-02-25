@@ -27,11 +27,17 @@
 
 body {
     font-family: var(--font-opensans);
+    min-width: 1440px;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+h3 {
+    font-size: 40px;
+    padding-bottom: 40px;
 }
 /* Utility
 */
@@ -67,13 +73,13 @@ row::after{
 
 .container {
     width: 70%;
-    max-width: 1600px;
+    
     margin: 0 auto;
 }
 
 .col-30{
     width: 30%;
-    height: 1000px;
+    height: 100px;
     float: left;
 }
 
@@ -139,7 +145,7 @@ nav a {
 
 }
 
-.navbar-container {
+.navbar{
     padding: 20px 20px 0;
     height: 70px;
 }
@@ -165,29 +171,25 @@ nav a {
 
 .jumbo {
     background-color: var(--primary);
-    height: 850px;
-
+    height: 700px;
 }
 
 h1 {
-    font-family: var(--font-opensans);
     font-weight: 700;
-    font-size: 90px;
-    padding: 80px 180px;
+    font-size: 70px;
+    padding: 80px 90px;
 }
 
 
 .hero_cta{
     width: 30%;
-    height: 1000px;
     float: left;
-    padding: 0px 0px 0 180px;
+    padding: 0px 0px 0 90px;
 }
 
 .hero_img{
     width: 70%;
-    height: 1000px;
-    padding: 0px 180px;
+    padding: 0px 130px;
     float: left;
 }
 
@@ -201,17 +203,9 @@ h1 {
 }
 
 #annulla {
-    text-decoration: none;
     color: black;
-    display: block;
     margin: 20px 0 40px;
 }
-
-i {
-   
-}
-
-
 
 
 
@@ -223,6 +217,7 @@ i {
 /* Price
 */
 
+
 .price {
     background-color: rgb(255, 0, 0);
     height: 1500px;
@@ -230,8 +225,9 @@ i {
 
 .price_text {
     width: 100%;
-    height: 200px;
+    padding: 150px 0 30px;
 }
+
 
 .professional{
     background-color: black;

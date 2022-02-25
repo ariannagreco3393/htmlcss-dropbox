@@ -15,9 +15,9 @@
 </head>
 <body>
     <header class="site_header">
-        <nav class="navbar-container">
+        <nav class="navbar">
             <div class="row">
-                <div class="col-50 row">
+                <div class="col-50">
                     <div class="logo">
                         <img src="./img/logo-small.png" alt="logo dropbox">
                     </div>
@@ -43,7 +43,7 @@
             <div class="title">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             </div>
-            <div class="hero row">
+            <div class="row">
                 <div class="hero_cta">
                     <p>
                         Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili 
@@ -51,8 +51,8 @@
                         è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                     </p>
                     <a class="blu_button hero_cta_button" href="">Inizia la tua prova gratuita</a>
-                    <a id="annulla" href="">Annulla in qulasiasi momento</a>
-                    <i class="fa-solid fa-arrow-down fa-3x"></i>
+                    <div id="annulla">Annulla in qulasiasi momento</div>
+                    <i class="fa-solid fa-arrow-down fa-2x"></i>
                 </div>
                 <div class="hero_img">
                     <img src="./img/jumbo.png" alt="">
@@ -64,40 +64,51 @@
     </header>
     <!-- /.site_header -->
     <main class="site_main">
-        <div class="container">
             <section class="abbonamenti">
-                <div class="price row">
-                    <div class="price_text"></div>
-                    <div class="col-30 professional"></div>
-                    <div class="col-30 standard"></div>
-                    <div class="col-30 advanced"></div>
-                    <div class="col-100 enterprise"></div>
-                </div>
-                <div class="partner row">
-                    <div class="col-60"></div>
-                    <div class="col-40"></div>
+                <div class="container">
+                    <div class="price row">
+                        <div class="price_text">
+                            <h3>Trova il piano Dropbox Business che fa per te</h3>
+                            <input type="radio" checked>
+                            <label>Fatturazione Mensile</label>
+                            <input type="radio">
+                            <label>Fatturazione Annuale</label>
+                        </div>
+
+                        <div class="col-30 professional"></div>
+                        <div class="col-30 standard"></div>
+                        <div class="col-30 advanced"></div>
+                        <div class="col-100 enterprise"></div>
+                    </div>
+                    <div class="partner row">
+                        <div class="col-60"></div>
+                        <div class="col-40"></div>
+                    </div>
                 </div>
             </section>
             <!-- /price section -->
 
             <section class="operazioni">
-                <div class="pro_dropbox row">
-                    <div class="pro_dropbox_text"></div>
-                    <div class="col-30 cartella"></div>
-                    <div class="col-30 proposta"></div>
-                    <div class="col-30 mobile"></div>
-                    <div class="col-30 zoom"></div>
-                    <div class="col-30 trasferisci"></div>
-                    <div class="col-30 cassaforte"></div>
+                <div class="container">
+                    <div class="pro_dropbox row">
+                        <div class="pro_dropbox_text"></div>
+                        <div class="col-30 cartella"></div>
+                        <div class="col-30 proposta"></div>
+                        <div class="col-30 mobile"></div>
+                        <div class="col-30 zoom"></div>
+                        <div class="col-30 trasferisci"></div>
+                        <div class="col-30 cassaforte"></div>
+                    </div>
                 </div>
             </section>
             <!-- /operazioni section -->
             <section class="team">
+                <div class="container">
                     <div class="text_team">
                         <h2 class="title_clienti"></h2>
                     <a href=""></a>
                     </div>
-                </div> 
+                </div>        
             </section>  
         </div>
             <!-- /team section -->
@@ -125,17 +136,17 @@
         </div>
             <!-- /cta -->
 
-        <div class="container">
             <section class="faq" >
-                <div class="faq_text">
-                    <div class="faq_title"></div>
-                    <div class="faq1"></div>
-                    <div class="faq2"></div>
-                    <div class="faq3"></div>
-                    <div class="faq4"></div>
+                <div class="container">
+                    <div class="faq_text">
+                        <div class="faq_title"></div>
+                        <div class="faq1"></div>
+                        <div class="faq2"></div>
+                        <div class="faq3"></div>
+                        <div class="faq4"></div>
+                    </div>
                 </div>
             </section>
-        </div>
     </main>
     <!-- /.site_main -->
     <footer class="site_footer">
