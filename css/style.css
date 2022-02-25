@@ -311,7 +311,7 @@ ul i {
     width: 100%;
 }
 
-.col-50 a {
+.text_partner a {
     text-decoration: none;
     color: black;
     border: 1px solid black;
@@ -333,15 +333,16 @@ ul i {
 */
 
 .pro_dropbox{
-    background-color: yellow;
-    height: 2000px;
+    height: 1300px;
+}
+
+.cartella, .proposta, .mobile, .zoom, .trasferisci, .cassaforte, .proposta, .trasferisci > p {
+    font-size: 14px;
 }
 
 
 .cartella, .proposta, .mobile, .zoom, .trasferisci, .cassaforte, .proposta, .trasferisci {
-    background-color: lightseagreen;
     margin-top: 8%;
-    height: 600px;
 }
 
 .proposta, .trasferisci {
