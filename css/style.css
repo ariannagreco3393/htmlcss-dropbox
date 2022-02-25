@@ -104,22 +104,23 @@ row::after{
 
 .square-30 {
     width: 30%;
-    height: 500px;
+    height: 400px;
     float: left;
     background-color: teal;
 }
 
 .square-40 {
     width: 40%;
-    height: 500px;
+    height: 400px;
     float: left;
     background-color: rgba(255, 216, 48, 1);
 }
 
 .square {
-    width: 50%;
+    width:50%;
     height: 50%;
     float: left;
+    position: relative;
 }
 
 .col-20{
@@ -360,8 +361,22 @@ ul i {
 /* clienti
 */
 
+.loghi {
+    position: relative;
+}
+
+
+.square img {
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: invert();
+}
+
 .clienti{
-    height: 500px;
+    margin-top: 40px;
 }
 
 .green{
@@ -382,6 +397,16 @@ ul i {
 
 .citazione{
     background-color: var(--square_gray);
+    padding: 40px;
+}
+
+.citazione >img {
+    width: 120px;
+}
+
+.citazione > p {
+    font-size: 14px;
+    margin-top: 40px;
 }
 
 .darkred {
