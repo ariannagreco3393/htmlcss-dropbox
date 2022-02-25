@@ -351,10 +351,11 @@ ul i {
 
 /* team
 */
-.text_team {
-    height: 400px;
-    background-color: brown;
+.text_team a{
+    color: var(--secondary); 
 }
+
+
 
 /* clienti
 */
