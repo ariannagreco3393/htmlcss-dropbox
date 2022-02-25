@@ -102,21 +102,6 @@ row::after{
 }
 
 
-
-.col-60{
-    width: 60%;
-    height: 500px;
-    float: left;
-    background-color: deeppink;
-}
-
-.col-40{
-    width: 40%;
-    height: 500px;
-    float: left;
-    background-color: springgreen;
-}
-
 .square-30 {
     width: 30%;
     height: 500px;
@@ -322,7 +307,27 @@ ul i {
 
 .partner {
     margin-top: 150px;
+    height: 500px;
+    width: 100%;
 }
+
+.col-50 a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 12px
+}
+
+.text_partner p {
+    font-size: 14px;
+    margin: 25px 0;
+    line-height: 1.5rem;
+}
+
+.text_partner {
+    padding: 30px 60px;
+}
+
 
 /* pro_dropbox
 */
