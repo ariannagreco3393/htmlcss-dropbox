@@ -39,6 +39,15 @@ h3 {
     font-size: 40px;
     padding-bottom: 40px;
 }
+
+h5{
+    font-size: 20px ;
+}
+
+h6{
+    font-size: 14px ;
+    
+}
 /* Utility
 */
 
@@ -61,6 +70,7 @@ row::after{
 }
 
 
+
 .col-50{
     width: 50%;
     float: left;
@@ -79,7 +89,7 @@ row::after{
 
 .col-30{
     width: 30%;
-    height: 100px;
+    height: 1000px;
     float: left;
 }
 
@@ -219,7 +229,7 @@ h1 {
 
 
 .price {
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
     height: 1500px;
 }
 
@@ -229,14 +239,67 @@ h1 {
 }
 
 
-.professional{
-    background-color: black;
+.card_title {
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-top: none;
+    padding: 30px;
+}
+
+.card_month {
+    color: gray;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.card_details {
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.card_button {
+    display: inline-block;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.my-1 {
+    margin-top: 1.5rem;
+}
+
+.my-1 > a {
+    color: var(--secondary);
+}
+
+.punti_salienti{
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+
+hr {
+    margin-top: 40px;
+    width: 40px;
+}
+
+li {
+    padding-top: 20px;
+}
+
+ul i {
+    color: var(--secondary)
 }
 
 .standard {
     background-color: azure;
     margin: 0 5%;
-
 }
 
 .advanced {
