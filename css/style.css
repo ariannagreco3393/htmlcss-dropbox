@@ -388,6 +388,7 @@ ul i {
 
 .clienti{
     margin-top: 40px;
+    height: 400px;
 }
 
 .green{
@@ -440,13 +441,17 @@ ul i {
 /* cta
 */
 
+.cta{
+    height: 250px;
+}
+
 .cta_button{
     padding: 100px;
 }
 
 .col-50-cta{
     width: 50%;
-    height: 300px;
+    height: 250px;
     float: left;
     background-color: var(--primary)
 }
@@ -461,9 +466,10 @@ ul i {
 */
 
 .faq_section{
-    height: 1200px;
+    height: 500px;
+    margin: 100px 0 50px 0;
 }
-  
+
 
 .faq_text hr{
     width: 100%;
