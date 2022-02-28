@@ -277,10 +277,17 @@ h1 {
     clear: both;
 }
 
+.icon {
+    width: 10%;
+    float: left;
+    margin-top: 15px;
+}
+
 .details {
     float: left;
-    width: 100%;
-    
+    width: 90%;
+    margin-top: 15px;
+
 }
 
 
